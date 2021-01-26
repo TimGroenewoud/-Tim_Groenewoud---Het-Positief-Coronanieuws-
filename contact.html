@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>"het Positief Corona Nieuws"</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Varela+Round&display=swapfamily=Belgrano&display=swapfamily=Oswald&display=swap=PT+Serif&display=swap=Bebas+Neue&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="web-page">
+
+        <header class="header">
+            <h1 class="titel"> "het Positief Corona Nieuws"</h1>
+        </header>
+
+        <div class="menu">
+            <nav class="items">
+                <a class="home" href="index.html">Home</a>
+                <a class="video" href="video.html">Video's</a>
+                <a class="contact" href="contact.html">Contact</a>
+            </nav>
+        </div>
+
+
+
+        <main class="content">
+            <form class="formulier" name="contact" method="POST" data-netlify="true">
+                <label for="voornaam">Voornaam:
+                    <input type="text" id="voornaam" name="voornaam"></label>
+                <label for="achternaam">Achternaam:
+                    <input type="text" id="achternaam" name="achternaam"></label>
+                <label class="select" for="geslacht">Geslacht:</label><br>
+                <select id="geslacht" name="geslacht">
+                    <option value="man">Man</option>
+                    <option value="vrouw">Vrouw</option>
+                    <option value="anders">Anders</option>
+                </select>
+                <label for="woonplaats">Woonplaats:
+                    <input type="text" id="woonplaats" name="woonplaats"></label>
+                <label for="email">E-mail:
+                    <input type="email" id="email" name="email"></label>
+                <label for="upload">Upload video/foto:
+                    <input type="file" id="upload" name="Upload"></label>
+                <input type="reset" value="Reset">
+                <input type="submit" id="verzend" name="verzend" value="Verzend">
+            </form>
+        </main>
+
+        <aside class="widget">
+
+            <h3 class="text">Heeft u ook positief nieuws over corona?</h3>
+            <a href="contact.html">
+                <button class="knop">Laat het ons weten!</button>
+            </a>
+
+        </aside>
+
+        <footer class="footer">
+            <div>
+                <h2 class="footertext">Dit nieuwsbulletin is mede mogelijk gemaakt door covid 19</h2>
+            </div>
+            <div class="mask">
+                <img width="50px"
+                    src="https://www.flaticon.com/svg/vstatic/svg/3365/3365408.svg?token=exp=1610999530~hmac=d708a351056acf59f005dc108a8f41b8">
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+
+
+</html>
